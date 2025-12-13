@@ -30,5 +30,5 @@ Alur pemrosesan citra yang digunakan adalah sebagai berikut:
 6.  **Decision Logic:** Menghitung luas area putih. Jika `Area > 0`, maka PCB dinyatakan **REJECT/DEFECT**.
 
 ## 🖼️ Output
-<img src="https://github.com/athallahrafi/CYLUX3.0/blob/main/IMG-20250612-WA0037.jpg" width="200">
+<img src="https://github.com/athallahrafi/pcb_defect_detection/blob/main/output.png" width="200">
 
