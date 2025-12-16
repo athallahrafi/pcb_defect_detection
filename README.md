@@ -29,7 +29,7 @@ Alur pemrosesan citra yang digunakan adalah sebagai berikut:
 5.  **Morphological Opening:** Membersihkan *noise* kecil menggunakan operasi erosi dan dilasi.
 6.  **Decision Logic:** Menghitung luas area putih. Jika `Area > 0`, maka PCB dinyatakan **REJECT/DEFECT**.
 
-## Source 
+## <img src="https://www.kaggle.com/static/images/site-logo.svg" width="100"> Source 
 1. Source Dataset Kaggle : https://www.kaggle.com/datasets/akhatova/pcb-defects
 thanks to the author
 
