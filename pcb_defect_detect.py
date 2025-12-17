@@ -43,8 +43,8 @@ def align_images(img_test, img_ref):
 # 1. INPUT CITRA
 img_ref = cv2.imread('PCB_DATASET/PCB_USED/01.jpg')
 # img_test = cv2.imread('PCB_DATASET/PCB_USED/01.jpg')
-img_test = cv2.imread('PCB_DATASET/rotation/Open_circuit_rotation/01_open_circuit_01.jpg') #Rorated image
-# img_test = cv2.imread('PCB_DATASET/images/Open_circuit/01_open_circuit_01.jpg')
+# img_test = cv2.imread('PCB_DATASET/rotation/Open_circuit_rotation/01_open_circuit_01.jpg') #Rorated image
+img_test = cv2.imread('PCB_DATASET/images/Open_circuit/01_open_circuit_01.jpg')
 
 # 2. IMAGE REGISTRATION (Penyamaan Posisi)
 # Sesuai flowchart, sebelum diproses/dikurangi, posisi harus sama
@@ -90,6 +90,8 @@ else:
 # ==========================================
 plt.figure(figsize=(15, 8))
 
+# titles = [ '4. Difference (Pengurangan)']
+# images = [diff_img, thresh_img]
 titles = ['1. Referensi (Golden)', '2. Uji (Sebelum Align)', '3. Uji (Setelah Align)', 
           '4. Difference (Pengurangan)', '5. Threshold', '6. Morfologi (Final Result)']
 images = [img_ref, img_test, img_test_aligned, 
